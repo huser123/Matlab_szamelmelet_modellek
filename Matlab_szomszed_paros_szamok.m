@@ -1,5 +1,5 @@
 % Szomszédos elemek hatványai - paros szamok
-% V1.1
+% V1.1 - 2020.12.25.
 
 clc, clear
 

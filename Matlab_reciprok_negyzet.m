@@ -1,5 +1,5 @@
 % A negyzet szamok reciprok sora  %% DIVERGENS!!!
-% V1.1
+% V1.1 - 2020.12.25.
 
 clc, clear                  % Kepernyo torles, memoria urites
 
