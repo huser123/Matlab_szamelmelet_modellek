@@ -1,4 +1,5 @@
 % A negyzetszamok aszimptotikus surusegenek abrazolasa
+% V1.1
 
 clear, clc
 

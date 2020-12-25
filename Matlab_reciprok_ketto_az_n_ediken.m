@@ -1,4 +1,5 @@
 % A hatvany szamok reciprok sora %% KONVERGENS!
+% V1.1
 
 clc, clear              % Kepernyo torles, memoria urites
 

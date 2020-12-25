@@ -1,4 +1,6 @@
 % Az egyessel kezdodo szamok aszimptotikus surusegenek abrazolasa
+% V1.1
+
 clear, clc
 
 an=0

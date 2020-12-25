@@ -1,4 +1,6 @@
 % Szomszédos elemek hatványai - paros szamok
+% V1.1
+
 clc, clear
 
 an=0

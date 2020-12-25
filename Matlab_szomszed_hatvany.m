@@ -1,4 +1,5 @@
 % A szomszedos tagok hanyadosainak hatarerteke - hatvanyszamok
+% V1.1
 
 clc, clear
 

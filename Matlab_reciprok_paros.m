@@ -1,4 +1,5 @@
 % A paros szamok reciprok sora %% DIVERGENS!!!
+% V1.1
 
 clc, clear                  % Kepernyo torles, memoria urites
 

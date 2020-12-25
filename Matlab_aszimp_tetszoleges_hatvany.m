@@ -1,4 +1,5 @@
 % A tetszoleges hatvany aszimptotikus surusegenek abrazolasa
+% V1.1
 
 clear, clc
 

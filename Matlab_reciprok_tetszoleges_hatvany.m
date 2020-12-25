@@ -1,4 +1,5 @@
 % A tetszoleges gyok szamok reciprok sora  %% ???
+% V1.1
 
 clc, clear                           % Kepernyo torles, memoria urites
 

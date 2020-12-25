@@ -1,4 +1,5 @@
 % A szomszedos tagok hanyadosainak hatarerteke - kettes hatvanyai
+% V1.1
 
 clc, clear
 
