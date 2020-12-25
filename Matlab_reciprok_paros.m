@@ -1,16 +1,21 @@
-% A paros szamok reciprok sora
-clc, clear
+% A paros szamok reciprok sora %% DIVERGENS!!!
 
-an=0
-n=0
+clc, clear                  % Kepernyo torles, memoria urites
 
-hold on
+an=0                        % Szamlalo valtozo nullazasa
+n=0                         % For index valtozo nullazasa
+i=0                         % Tomb index valtozo nullazasa
 
-for n = 1:1000
-    if mod(n,2) == 0
-        an=an+(1/n)
-        plot(n,an,'b.')
-        %drawnow
-    end
+hold on                     % Az osszes figuraelem megtartasa
+
+for n = 1:1000              % Meddig menjunk
+    if mod(n,2) == 0        % Paros szam vizsgalata maradekos osztassal
+        i=i+1               % Tomb indexének novelese
+        an=an+(1/n)         % Reciprok sor osszegenek szamolasa
+        oszto(i)=n          % A feltel eredmenye
+        szamitas(i)=an      % Amit szamol a fuggveny
+        plot(n,an,'b.')     % Rajzolas
+        %drawnow            % Valos idoben torteno rajzolas
+    end                     % IF vege
     
-end
+end                         % FOR ciklus vege
