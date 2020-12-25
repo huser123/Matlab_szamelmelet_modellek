@@ -1,4 +1,4 @@
-% A szomszedos tagok hanyadosainak hatarerteke - kettes hatvanyai
+% A szomszedos tagok hanyadosainak hatarerteke - hatvanyszamok
 
 clc, clear
 
