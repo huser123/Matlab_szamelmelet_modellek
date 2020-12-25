@@ -1,4 +1,5 @@
 % A negyzetszamok aszimptotikus surusegenek abrazolasa
+
 clear, clc
 
 an=0
