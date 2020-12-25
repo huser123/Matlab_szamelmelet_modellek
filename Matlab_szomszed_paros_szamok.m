@@ -17,6 +17,6 @@ end
 
 
 for n = 1:(i-1)
-    plot(n*2,(an(n+1)/an(n)),'g.')
+    plot(n,(an(n+1)/an(n)),'b.')
     %drawnow
 end
