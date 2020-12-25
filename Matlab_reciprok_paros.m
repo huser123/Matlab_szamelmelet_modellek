@@ -10,7 +10,7 @@ hold on                     % Az osszes figuraelem megtartasa
 
 for n = 1:1000              % Meddig menjunk
     if mod(n,2) == 0        % Paros szam vizsgalata maradekos osztassal
-        i=i+1               % Tomb indexének novelese
+        i=i+1               % Tomb indexenek novelese
         an=an+(1/n)         % Reciprok sor osszegenek szamolasa
         oszto(i)=n          % A feltel eredmenye
         szamitas(i)=an      % Amit szamol a fuggveny
