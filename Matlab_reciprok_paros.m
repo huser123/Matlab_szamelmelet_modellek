@@ -14,7 +14,7 @@ for n = 1:1000              % Meddig menjunk
         an=an+(1/n)         % Reciprok sor osszegenek szamolasa
         oszto(i)=n          % A feltel eredmenye
         szamitas(i)=an      % Amit szamol a fuggveny
-        plot(n,an,'b.')     % Rajzolas
+        plot(n,an,'r.')     % Rajzolas
         %drawnow            % Valos idoben torteno rajzolas
     end                     % IF vege  
 end                         % FOR ciklus vege
