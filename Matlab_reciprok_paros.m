@@ -9,13 +9,12 @@ i=0                         % Tomb index valtozo nullazasa
 hold on                     % Az osszes figuraelem megtartasa
 
 for n = 1:1000              % Meddig menjunk
-    if mod(n,2) == 0        % Paros szam vizsgalata maradekos osztassal
+    if mod(n,2) == 0        % Parosszam vizsgalata maradekos osztassal
         i=i+1               % Tomb indexenek novelese
         an=an+(1/n)         % Reciprok sor osszegenek szamolasa
         oszto(i)=n          % A feltel eredmenye
         szamitas(i)=an      % Amit szamol a fuggveny
         plot(n,an,'b.')     % Rajzolas
         %drawnow            % Valos idoben torteno rajzolas
-    end                     % IF vege
-    
+    end                     % IF vege  
 end                         % FOR ciklus vege

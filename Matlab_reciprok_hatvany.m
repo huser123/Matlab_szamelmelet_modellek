@@ -1,13 +1,18 @@
-% A hatvany szamok reciprok sora
-clc, clear
+% A hatvany szamok reciprok sora %% KONVERGENS!
 
-an=0
-n=0
+clc, clear              % Kepernyo torles, memoria urites
 
-hold on
+an=0                    % Szamlalo valtozo nullazasa
+n=0                     % For index valtozo nullazasa
+i=0                     % For index valtozo nullazasa
 
-for n = 1:1000
-    an=an+(1/2^n)
-    plot(n,an,'r.')
-    %drawnow
-end
+hold on                 % Az osszes figuraelem megtartasa
+
+for n = 1:1000          % Meddig menjunk
+    i=i+1               % Tomb indexenek novelese
+    an=an+(1/2^n)       % A reciprok sor osszegenek szamolasa
+    oszto(i)=n          % A feltel eredmenye
+    szamitas(i)=an      % Amit szamol a fuggveny
+    plot(n,an,'r.')     % Kirajzolas
+    %drawnow            % Valos idoben torteno rajzolas
+end                     % FOR ciklus vege
