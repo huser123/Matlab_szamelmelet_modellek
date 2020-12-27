@@ -1,4 +1,4 @@
-% A n^2 szamok reciprok sora %% ???
+% A n^2 szamok reciprok sora %% KONVERGENS
 % V1.1 - 2020.12.25.
 
 clc, clear              % Kepernyo torles, memoria urites
